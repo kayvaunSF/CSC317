@@ -1,0 +1,26 @@
+header	{
+		background-color:	grey;
+		width:				1420px;
+		text-align:			right;
+		font-weight:		bold;
+		margin-left:		auto;
+		margin-right:		auto;
+		padding:			2px;
+		box-shadow:			1px 1px 1px #777;
+		}	
+
+body {
+	background-colo: grey;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+}
+
+form {
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	color: black;
+}

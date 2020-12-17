@@ -1,0 +1,58 @@
+<!DOCTYPE html?>
+	
+	<html>
+
+		<head>
+			
+			<title>Post an Image</title>
+
+		</head>
+
+		<body>
+			
+			<header align="center"> 
+
+				Post an Image
+
+			</header>
+			
+			<div align="left">
+
+				<h1>Post an Image</h1>
+
+				<br>
+
+				<script>
+					function check() {
+						document.writeln("nice "+document.test.postTtile.value);
+					}
+				</script>
+
+				<form name="test">
+
+
+		  
+				<label>Title</label><br>
+				<input type="text" name="postTtile" placeholder="title" required="">
+				<br><br>
+
+				<label>Description</label><br>
+				<input type="text" name="postDescription" placeholder="description">
+				<br><br>
+
+				<label>Select image:</label><br>
+				<input type="file" id="img" name="img" accept="image/*" required>
+				<br><br>
+
+				<input type="checkbox" id="termsAndPolicy" name="termsAndPolicy" required>
+				<label>I agree to the Acceptable Use Policy for uploading images.</label>
+				<br><br>
+
+				<input type="submit" onclick="check(); return false" name="">
+
+				</form>
+			</div>
+		</body>
+
+	</html>
+

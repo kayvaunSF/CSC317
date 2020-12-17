@@ -1,0 +1,59 @@
+<!DOCTYPE html?>
+	
+	<html>
+
+		<head>
+			
+			<title>Register</title>
+
+		</head>
+
+		<body>
+			
+			<header align="center"> 
+				Create Account
+
+			</header>
+			
+			<div align="left">
+
+				<h1>Create Account</h1>
+
+				<br>
+				<form action="index.html" target="_blank" method="GET">
+		  
+				<label>Email</label><br>
+				<input type="email" name="userEmail" placeholder="email" required="">
+				<br><br>
+
+				<label>Username</label><br>
+				<input type="text" name="username" placeholder="username" required="required">
+				<br><br>
+
+				<label>Password</label><br>
+				<input type="password" name="password" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="required">
+				<br><br>				
+
+				<label>Confirm Password</label><br>
+				<input type="password" name="password" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="required">
+				<br><br>
+
+				<input type="checkbox" id="thirteenOrOlder" name="thirteenOrOlder">
+				<label>By checking this box you are confirming you are 13+ years of age.</label>
+				<br><br>
+
+				
+				<input type="checkbox" id="termsAndPolicy" name="termsAndPolicy" required>
+				<label>I consent to the 
+					<a href="tnc_privacy.html">Terms of Service/Privacy Policy</a>.
+				</label>
+				<br><br>
+
+				<button type="submit">Create Account</button>
+
+				</form>
+			</div>
+		</body>
+
+	</html>
+
