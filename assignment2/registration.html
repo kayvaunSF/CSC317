@@ -5,6 +5,8 @@
 		<head>
 			
 			<title>Register</title>
+		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript" src="/home/kayvaun/csc317-termproject-kayvaunSF/assignment2/jsstuff.js" ></script>
 
 		</head>
 
@@ -20,14 +22,14 @@
 				<h1>Create Account</h1>
 
 				<br>
-				<form action="index.html" target="_blank" method="GET">
+				<form name="myCoolForm" action="index.html" onsubmit="return validateForm()" method="post">
 		  
 				<label>Email</label><br>
 				<input type="email" name="userEmail" placeholder="email" required="">
 				<br><br>
 
 				<label>Username</label><br>
-				<input type="text" name="username" placeholder="username" required="required">
+				<input type="text" name="username" placeholder="username">
 				<br><br>
 
 				<label>Password</label><br>
